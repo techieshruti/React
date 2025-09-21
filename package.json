@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/techieshruti/React/issues"
   },
-  "homepage": "https://github.com/techieshruti/React#readme"
+  "homepage": "https://github.com/techieshruti/React#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
 }
