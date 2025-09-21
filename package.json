@@ -1,0 +1,23 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Namaste React",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techieshruti/React.git"
+  },
+  "keywords": [
+    "react",
+    "Namaste-react"
+  ],
+  "author": "Shruti Chandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techieshruti/React/issues"
+  },
+  "homepage": "https://github.com/techieshruti/React#readme"
+}
