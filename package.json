@@ -22,5 +22,9 @@
   "homepage": "https://github.com/techieshruti/React#readme",
   "devDependencies": {
     "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   }
 }
