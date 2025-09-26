@@ -1,6 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 
+//React Component- we can not use react component before initialization
+
+const Text = () => {
+    return <p>I am a React Component</p>
+}
+
 const para = 
 <div id="container">
     <h1>Welcome to React Tutorial</h1>
@@ -11,12 +17,9 @@ const para =
         <li>CSS</li>
         <li>JavaScript</li>
     </ul>
-
+    <Text/>
 </div>
-
-//React Component
-const link = ()=>{<a href="https://react.dev/">React Documentation</a>};
-
 
 const root=ReactDOM.createRoot(document.getElementById("root"))
 root.render(para)
+//root.render(<Text/>)
