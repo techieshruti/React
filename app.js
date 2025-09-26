@@ -6,7 +6,7 @@ import ReactDOM from "react-dom/client"
 const Text = () => {
     return <p>I am a React Component</p>
 }
-
+console.log(Text);
 const para = 
 <div id="container">
     <h1>Welcome to React Tutorial</h1>
