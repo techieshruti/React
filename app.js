@@ -26,10 +26,10 @@ const Header = () => {
       
       <div className="nav-container">
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact</li>
-          <li>Cart</li>
+          <a href="#home.html">Home</a>
+          <a href="#about.html">About Us</a>
+          <a href="#contact">Contact</a>
+          <a href="#cart">Cart</a>
         </ul>
       </div>
     </div>

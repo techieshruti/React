@@ -5,6 +5,8 @@
     align-items: center;
     font-size: 1.3rem;
     padding: 0 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgb(232, 155, 155);
 }
 
 .logo{
@@ -17,7 +19,9 @@
     list-style-type: none;
     padding: 0px 1rem;
 }
-.nav-container > ul > li{
+.nav-container > ul > a{
     padding: 10px;
+    text-decoration: none;
+    color: rgb(112, 39, 39);
 }
 
