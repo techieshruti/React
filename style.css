@@ -31,3 +31,10 @@
     color: rgb(210, 135, 135);
 }
 
+/*Main Container*/
+.main-container{
+    padding-top: 2rem;
+}
+.search{
+    padding-top: 5rem;
+}
