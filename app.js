@@ -15,4 +15,13 @@ footer
   -contact   
 */
 
+const AppLayout = () => {
+    return (
+        <div className="app">
+         //header
+         //body
+         //footer   
+        </div>
+    );
+}
 const root=ReactDOM.createRoot(document.getElementById("root"))
