@@ -56,7 +56,9 @@
 .rescard-container{
     width: 15rem;
     height: 20rem;
-    background-color: rgb(225, 226, 226);
+    margin: 1rem;
+    background-color: rgb(232, 238, 238);
+    box-shadow: 0 5px 10px rgb(160, 110, 110);
     border-radius: 1rem;
 }
 .res-img img{
