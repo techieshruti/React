@@ -1,13 +1,4 @@
-#container{
-    margin: 1rem;
-    padding: 0;
-}
-.para{
-    font-size: medium;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.img{
-    width: 120px;
-    height: 120px;
+.logo{
+    width: 100px;
+    height: 100px;
 }
