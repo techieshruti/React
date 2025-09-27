@@ -1,4 +1,23 @@
-.logo{
-    width: 100px;
-    height: 100px;
+.header{
+    display: flex;
+    border: 2px solid brown;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 0 1rem;
 }
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.nav-container > ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 1rem;
+}
+.nav-container > ul > li{
+    padding: 10px;
+}
+

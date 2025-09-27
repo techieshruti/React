@@ -20,14 +20,16 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
-        <img className="logo" src="./assets/logo.png" alt=""></img>
+        <img className="logo" 
+        src={new URL("/assets/logo.png", import.meta.url).pathname} alt=""></img>
       </div>
       
       <div className="nav-container">
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact</li>
+          <li>Cart</li>
         </ul>
       </div>
     </div>
