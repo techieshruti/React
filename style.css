@@ -32,12 +32,10 @@
 }
 
 /*Main Container*/
-.main-container{
-    display: flex;
-}
 .search{
     margin: 2rem;
-    color: black;
+    display: flex;
+    align-items: center;
 }
 .search > input{
     padding: 0.8rem 1.5rem;
@@ -45,6 +43,11 @@
     border-radius: 1rem;
 }
 
-.search > input :placeholder-shown{
-    font-size: 2rem;
+.search input::placeholder{
+    font-size: 1rem;
+}
+.search-icon{
+    font-size: 1.8rem;
+    margin: 0.5rem 0.5rem;
+    color: rgb(219, 137, 137);
 }

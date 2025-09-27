@@ -39,17 +39,20 @@ const Header = () => {
 };
 
 //Main Component
+
+// resturant card
 const Main = () => {
   return (
     <div className="main-container">
       <div className="search">
       <input type="text" placeholder="Search any resturant..."/>
-        <i className="fa-solid fa-magnifying-glass"></i>
+        <i className="fa-solid fa-magnifying-glass search-icon"></i>
       </div>
       <div id="rest-container"></div>
     </div>
   );
 };
+
 
 const AppLayout = () => {
   return <div className="app">
