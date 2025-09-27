@@ -71,7 +71,10 @@ const Main = () => {
         <input type="text" placeholder="Search any resturant..." />
         <i className="fa-solid fa-magnifying-glass search-icon"></i>
       </div>
-      <div id="rest-container">
+      <div className="rest-container">
+        <ResturantCard />
+        <ResturantCard />
+        <ResturantCard />
         <ResturantCard />
       </div>
     </div>
