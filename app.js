@@ -45,7 +45,7 @@ const Header = () => {
 //Main Component
 
 // resturant card
-const ResturantCard = () => {
+const ResturantCard = (props) => {
   return (
     <div className="rescard-container">
       <div className="res-img">
@@ -53,16 +53,17 @@ const ResturantCard = () => {
         <div className="dicount"></div>
       </div>
       <div className="rescard-text">
-        <div className="res-name">Domino's Pizza</div>
+        <div className="res-name">{props.resName}</div>
         <div className="res-rating">
-          <i className="fa-solid fa-star"></i>4.2 30-45 min
+          <i className="fa-solid fa-star"></i>{props.rating}
         </div>
-        <div className="res-cusine">Pizzas, Italian, Pastas, Desserts</div>
-        <div className="res-location">Mayur Vihar</div>
+        <div className="res-cusine">{props.resCusine}</div>
+        <div className="res-location">{props.resLocation}</div>
       </div>
     </div>
   );
 };
+// res-name="Domino's Pizza" res-cusine="Pizzas, Italian, Pastas, Desserts" res-location="Mayur Vihar"
 
 const Main = () => {
   return (
@@ -72,10 +73,10 @@ const Main = () => {
         <i className="fa-solid fa-magnifying-glass search-icon"></i>
       </div>
       <div className="rest-container">
-        <ResturantCard />
-        <ResturantCard />
-        <ResturantCard />
-        <ResturantCard />
+        <ResturantCard resName="Domino's Pizza" rating="4.2 30-45 min" resCusine="Pizzas, Italian, Pastas, Desserts" resLocation="Mayur Vihar"/>
+        <ResturantCard resName="Dunkin' Donuts" rating="4.0 30 min" resCusine="Desserts, Cafe, Bakery, Beverages" resLocation="Trilok Puri"/>
+        <ResturantCard resName="Burger King" rating="4.6 45 min" resCusine="Desserts, Burgers, Snacks, Beverages" resLocation="Noida Sec 62"/>
+        <ResturantCard resName="The Waffle Co." rating="4.3 20-30 min"resCusine="Desserts, Burgers, Bakery, Waffle" resLocation="Noida sec 15"/>
       </div>
     </div>
   );
