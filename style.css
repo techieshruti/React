@@ -56,12 +56,22 @@
 .rescard-container{
     width: 15rem;
     height: 20rem;
-    background-color: rgb(108, 205, 205);
+    background-color: rgb(225, 226, 226);
+    border-radius: 1rem;
 }
 .res-img img{
     width: 15rem;
     height: 0 auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.rescard-text{
+    padding: 0 0.5rem;
+    line-height: 1.5rem;
 }
 .res-name{
-    font-size: small;
+    font-size: 1.8rem;
+    color: rgb(146, 33, 33);
+    font-weight: 600;
+    padding: 0.5rem;
 }

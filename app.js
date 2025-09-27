@@ -49,13 +49,17 @@ const ResturantCard = () => {
   return (
     <div className="rescard-container">
       <div className="res-img">
-      <img src={new URL("/assets/pizza.png", import.meta.url).pathname}></img>
+        <img src={new URL("/assets/pizza.png", import.meta.url).pathname}></img>
         <div className="dicount"></div>
       </div>
-      <div className="res-name">Domino's Pizza</div>
-      <div className="res-rating"></div>
-      <div className="res-cusine"></div>
-      <div className="res-location"></div>
+      <div className="rescard-text">
+        <div className="res-name">Domino's Pizza</div>
+        <div className="res-rating">
+          <i className="fa-solid fa-star"></i>4.2 30-45 min
+        </div>
+        <div className="res-cusine">Pizzas, Italian, Pastas, Desserts</div>
+        <div className="res-location">Mayur Vihar</div>
+      </div>
     </div>
   );
 };
@@ -68,7 +72,7 @@ const Main = () => {
         <i className="fa-solid fa-magnifying-glass search-icon"></i>
       </div>
       <div id="rest-container">
-        <ResturantCard/>
+        <ResturantCard />
       </div>
     </div>
   );
