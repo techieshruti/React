@@ -18,10 +18,10 @@
 .nav-container > ul{
     display: flex;
     list-style-type: none;
-    padding: 0px 1rem;
+    padding: 0px 3rem;
 }
 .nav-container > ul > a{
-    padding: 10px;
+    padding: 0 2rem;
     text-decoration: none;
     color: rgb(112, 39, 39);
 }
