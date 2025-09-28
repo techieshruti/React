@@ -50,7 +50,7 @@ const ResturantCard = (props) => {
   return (
     <div className="rescard-container">
       <div className="res-img">
-        <img src={new URL("/assets/pizza.png", import.meta.url).pathname}></img>
+        <img src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+resData.info.cloudinaryImageId}></img>
         <div className="dicount"></div>
       </div>
       <div className="rescard-text">
