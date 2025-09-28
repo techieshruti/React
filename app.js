@@ -56,9 +56,10 @@ const ResturantCard = (props) => {
       <div className="rescard-text">
         <div className="res-name">{resData.info.name}</div>
         <div className="res-rating">
-          <i className="fa-solid fa-star"></i>{resData.info.avgRating}
+          <i className="fa-solid fa-star"></i>{resData.info.avgRating} star
         </div>
-        <div className="res-cusine">{resData.info.cuisines}</div>
+        <div className="res-cusine">{resData.info.cuisines.join(", ")}</div>
+        <div className="res-cusine">{resData.info.costForTwo}</div>
         <div className="res-location">{resData.info.locality}</div>
       </div>
     </div>
@@ -166,7 +167,7 @@ const Main = () => {
       <div className="rest-container">
         <ResturantCard 
         // passing resObj data and resObj is and object so to pass object in JS we use {}.
-        resData = {resObj}
+        resData = {resObj[0]}
         />
       </div>
     </div>
