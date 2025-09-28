@@ -58,12 +58,13 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    margin: 0 5rem;
 }
 
 .rescard-container{
-    width: 15rem;
-    height: 22rem;
-    padding: 0;
+    width: 16rem;
+    height: 24rem;
+    margin-top: 3rem;
     background-color: rgb(232, 238, 238);
     box-shadow: 0 5px 10px rgb(160, 110, 110);
     border-radius: 1rem;
@@ -76,14 +77,14 @@
     transition: 1s ease-in-out;
 }
 .res-img img{
-    width: 15rem;
-    max-height: 13rem;
+    width: 16rem;
+    max-height: 12rem;
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 .rescard-text{
-    padding: 0 0 1rem 1rem;
+    padding: 0 1rem 1rem 1rem;
     line-height: 1.5rem;
 }
 .res-name{
