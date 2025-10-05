@@ -1,3 +1,5 @@
+import ResturantCard from "./ResturantCard"
+import resList from "../utills/mockData"
 const Main = () => {
   return (
     <div className="main-container">
