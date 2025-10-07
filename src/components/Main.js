@@ -21,7 +21,7 @@ const [listOfRes, setlistOfRes] = useState(resList);
       <div className="rest-container">
       {/* passing resObj data and resObj is and object so to pass object in JS we use {}. */}
         {
-          resList.map(resturant => <ResturantCard key={resturant.info.id} resData={resturant}/>)
+          listOfRes.map(resturant => <ResturantCard key={resturant.info.id} resData={resturant}/>)
         }
         </div>
     </div>
