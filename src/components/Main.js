@@ -1,10 +1,15 @@
 import ResturantCard from "./ResturantCard"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import resList from "../utills/mockData";
 
 const Main = () => {
 const [listOfRes, setlistOfRes] = useState(resList);
-  return (
+
+useEffect(() => {
+  console.log("useeffect called")
+}, []);
+
+return (
     <div className="main-container">
       <div className="search">
         <input type="text" placeholder="Search any resturant..." />
