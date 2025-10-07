@@ -6,8 +6,12 @@ const Main = () => {
 const [listOfRes, setlistOfRes] = useState(resList);
 
 useEffect(() => {
-  console.log("useeffect called")
+  fetchData();
 }, []);
+
+const fetchData = async ()=>{
+  const data = async fetch("");
+}
 
 return (
     <div className="main-container">
