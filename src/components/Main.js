@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import resList from "../utills/mockData";
 
 const Main = () => {
-  const [listOfRes, setlistOfRes] = useState(resList);
+  const [listOfRes, setlistOfRes] = useState([]);
 
   useEffect(() => {
     fetchData();
@@ -14,8 +14,11 @@ const Main = () => {
       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6146243&lng=77.3121575&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
-    console.log(json?.data?.cards.find((item) => item?.card?.card.id?.includes("restaurant_grid"))?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+
+    console.log();
+    setlistOfRes(json?.data?.cards.find((item) => item?.card?.card.id?.includes("restaurant_grid"))?.card?.card?.gridElements?.infoWithStyle?.restaurants);
   };
+  
 
   return (
     <div className="main-container">
