@@ -1,7 +1,7 @@
 import ResturantCard from "./ResturantCard";
 import { useState, useEffect } from "react";
 import resList from "../utills/mockData";
-import shimmer from "./shimmer";
+import Shimmer from "./shimmer";
 
 const Main = () => {
   const [listOfRes, setlistOfRes] = useState([]);
@@ -19,8 +19,8 @@ const Main = () => {
     setlistOfRes(json?.data?.cards.find((item) => item?.card?.card.id?.includes("restaurant_grid"))?.card?.card?.gridElements?.infoWithStyle?.restaurants);
   };
 
- if(listOfRes===0){
-  return <shimmer/>
+ if(listOfRes.length === 0){
+  return <Shimmer/>
  }
   
 

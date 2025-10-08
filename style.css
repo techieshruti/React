@@ -93,3 +93,19 @@
     font-weight: 600;
     padding: 0.5rem;
 }
+/* shimmer UI */
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 5rem;
+}
+.shimmer-card{
+    width: 16rem;
+    height: 24rem;
+    margin-top: 3rem;
+    background-color: red;
+    border-radius: 1rem;
+    cursor: pointer;
+}
