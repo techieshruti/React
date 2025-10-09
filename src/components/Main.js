@@ -20,7 +20,13 @@ const Main = () => {
   };
 
  if(listOfRes.length === 0){
-  return <Shimmer/>
+  return (
+     <div className="rest-container">
+      {Array(8).fill("").map((_, i) => (
+        <div className="shimmer-card" key={i}></div>
+      ))}
+    </div>
+  )
  }
   
 

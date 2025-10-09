@@ -88,7 +88,7 @@
     line-height: 1.5rem;
 }
 .res-name{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: rgb(146, 33, 33);
     font-weight: 600;
     padding: 0.5rem;
@@ -101,11 +101,15 @@
     justify-content: space-evenly;
     margin: 0 5rem;
 }
+
 .shimmer-card{
     width: 16rem;
     height: 24rem;
     margin-top: 3rem;
-    background-color: red;
+    background-color: rgb(225, 222, 222);
+    box-shadow: 0 5px 10px rgb(160, 110, 110);
     border-radius: 1rem;
     cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
 }
