@@ -1,15 +1,10 @@
 const Shimmer= ()=> {
     return (
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+        <div className="rest-container">
+      {Array(8).fill("").map((_, i) => (
+        <div className="shimmer-card" key={i}></div>
+      ))}
+    </div>
     )
 }
 

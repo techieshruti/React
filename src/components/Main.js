@@ -20,16 +20,9 @@ const Main = () => {
   };
 
  if(listOfRes.length === 0){
-  return (
-     <div className="rest-container">
-      {Array(8).fill("").map((_, i) => (
-        <div className="shimmer-card" key={i}></div>
-      ))}
-    </div>
-  )
- }
+  return <Shimmer/>
+      }
   
-
   return (
     <div className="main-container">
       <div className="search">
