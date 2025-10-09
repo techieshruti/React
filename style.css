@@ -51,6 +51,23 @@
     margin: 0.5rem 0.5rem;
     color: rgb(219, 137, 137);
 }
+/* filter button */
+.filter-btn{
+    padding: 0.8rem 1.5rem;
+    border: 2px solid brown;
+    border-radius: 1rem;
+    background-color: white;
+    font-size: 1rem;
+    color: grey;
+}
+.filter-btn:hover{
+    transition:0.5s ease-in;
+    color: brown;
+    font-weight: 600;
+    border: 2px solid rgb(188, 152, 152);
+    cursor: pointer;
+}
+
 
 /*Resturant card container*/
 .rest-container{
