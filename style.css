@@ -53,7 +53,7 @@
 }
 /* filter button */
 .filter-btn{
-    padding: 0.8rem 1.5rem;
+    padding: 0.3rem 1.5rem;
     border: 2px solid brown;
     border-radius: 1rem;
     background-color: white;
@@ -68,7 +68,11 @@
     cursor: pointer;
 }
 /* activity */
-.activity{}
+.activity{
+    display: flex;
+    justify-content: space-around;
+}
+
 /*Resturant card container*/
 .rest-container{
     display: flex;

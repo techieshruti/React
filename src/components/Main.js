@@ -30,7 +30,8 @@ const Main = () => {
         <input type="text" placeholder="Search any resturant..." />
         <i className="fa-solid fa-magnifying-glass search-icon"></i>
       </div>
-      <button
+      <div className="filter">
+        <button
         className="filter-btn"
         onClick={() => {
           const filterdList = listOfRes.filter(
@@ -38,9 +39,9 @@ const Main = () => {
           );
           setlistOfRes(filterdList);
         }}
-      >
-        Top Rated Resturant
+      >Top Rated Resturant
       </button>
+      </div>
     </div>
       
       <div className="rest-container">
