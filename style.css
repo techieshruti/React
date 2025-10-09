@@ -67,8 +67,8 @@
     border: 2px solid rgb(188, 152, 152);
     cursor: pointer;
 }
-
-
+/* activity */
+.activity{}
 /*Resturant card container*/
 .rest-container{
     display: flex;

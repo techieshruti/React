@@ -25,6 +25,7 @@ const Main = () => {
   
   return (
     <div className="main-container">
+    <div className="activity">
       <div className="search">
         <input type="text" placeholder="Search any resturant..." />
         <i className="fa-solid fa-magnifying-glass search-icon"></i>
@@ -40,6 +41,8 @@ const Main = () => {
       >
         Top Rated Resturant
       </button>
+    </div>
+      
       <div className="rest-container">
         {/* passing resObj data and resObj is and object so to pass object in JS we use {}. */}
         {listOfRes.map((resturant) => (
