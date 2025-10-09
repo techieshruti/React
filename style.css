@@ -86,12 +86,14 @@
 .rescard-text{
     padding: 0 1rem 1rem 1rem;
     line-height: 1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .res-name{
     font-size: 1.6rem;
-    color: rgb(146, 33, 33);
+    color: rgb(151, 7, 7);
     font-weight: 600;
-    padding: 0.5rem;
+    padding-bottom: 0.8rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 /* shimmer UI */
 .shimmer-container{
