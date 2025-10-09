@@ -52,8 +52,13 @@
     color: rgb(219, 137, 137);
 }
 /* filter button */
+.filter{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
 .filter-btn{
-    padding: 0.3rem 1.5rem;
+    padding: 0.8rem 1.5rem;
     border: 2px solid brown;
     border-radius: 1rem;
     background-color: white;
